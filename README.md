@@ -6,7 +6,13 @@
 git clone https://github.com/mohd-arham-islam/multi-agent-system.git
 ```
 
-## 2. Set Up API Keys
+## 2. Install Python dependencies
+
+```bash
+pip install python-dotenv google-adk requests
+```
+
+## 3. Set Up API Keys
 
 Create a `.env` file inside the `multi-agent-manager` folder with the following content:
 
@@ -18,7 +24,7 @@ NATIONAL_PARK_SERVICES_API="<YOUR_NPS_API_KEY>"
 ```
 Replace the placeholders with your actual API keys.
 
-## 3. Run the Agent
+## 4. Run the Agent
 Navigate to the parent folder (which contains the multi-agent-manager sub folder) and run the following code:
 
 ```ini
