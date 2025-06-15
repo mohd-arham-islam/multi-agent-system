@@ -1,4 +1,20 @@
 # Travel Agent Setup
+This project demonstrates a Multi-Agent System (MAS) using the A2A protocol, where specialized agents collaborate to solve complex tasks through intelligent delegation.
+In this example, we build a system of independent, focused agents that work together under a coordinating Root Agent. This design is ideal for scenarios where a single agent would be insufficient to handle multiple specialized requests.
+
+## 👥 Agents in the System
+
+### 🧱 Root AgentActs as the central coordinator. It receives user queries and delegates tasks to the most relevant specialized agent.
+
+### 🌦️ Weather AgentProvides current and forecasted weather for any specified location.
+
+### ✈️ Flight Finder AgentSearches for flight options using Google Search.
+
+### 🏜️ National Park Service AgentFetches alerts, activities, and basic info about U.S. National Parks via the NPS API.
+
+## 🔗 Powered by the A2A Protocol
+
+Each agent runs as a separate service and communicates through the Agent-to-Agent (A2A) protocol, enabling plug-and-play interoperability without custom integration code.
 
 ## 1. Clone the Repository
 
