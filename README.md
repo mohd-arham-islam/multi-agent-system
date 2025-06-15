@@ -4,13 +4,15 @@ In this example, we build a system of independent, focused agents that work toge
 
 ## 👥 Agents in the System
 
-### 🧱 Root AgentActs as the central coordinator. It receives user queries and delegates tasks to the most relevant specialized agent.
+#### 🧱 Root AgentActs as the central coordinator. It receives user queries and delegates tasks to the most relevant specialized agent.
 
-### 🌦️ Weather AgentProvides current and forecasted weather for any specified location.
+#### 🌦️ Weather AgentProvides current and forecasted weather for any specified location.
 
-### ✈️ Flight Finder AgentSearches for flight options using Google Search.
+#### ✈️ Flight Finder AgentSearches for flight options using Google Search.
 
-### 🏜️ National Park Service AgentFetches alerts, activities, and basic info about U.S. National Parks via the NPS API.
+#### 🏜️ National Park Service AgentFetches alerts, activities, and basic info about U.S. National Parks via the NPS API.
+![image](https://github.com/user-attachments/assets/282aac8c-9779-4f81-938b-2781d4d37b41)
+
 
 ## 🔗 Powered by the A2A Protocol
 
@@ -48,3 +50,8 @@ adk web
 ```
 
 Open the URL (usually http://localhost:8000) shown in the terminal in your browser to start chatting with your agent.
+
+![image](https://github.com/user-attachments/assets/c17f1292-cf02-4ee3-adf8-6573dff27fc8)
+![image](https://github.com/user-attachments/assets/dcf0627d-ec9e-41bc-aa33-b58d62dd4631)
+![image](https://github.com/user-attachments/assets/6dee3cbe-01cf-4492-808c-5b65e812994f)
+
